@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { HashRouter,Route, Switch, Link } from "react-router-dom";
 import FolderIcon from 'react-icons/lib/md/folder';
 import GraduateIcon from 'react-icons/lib/md/school';
 import SettingIcon from 'react-icons/lib/md/perm-data-setting';
@@ -290,7 +290,7 @@ const RouteWithSubRoutes = route => (
 );
 
 const Protfolio = () => (
-  <Router>
+  <HashRouter>
     <div>
               <nav className="nav nav-pills nav-justified">
               <Link  className="nav-item text-info" to="/work"><h1><FolderIcon/> </h1 > Works</Link>
@@ -307,7 +307,7 @@ const Protfolio = () => (
                       {routes.map((route, i) => <RouteWithSubRoutes key={i} {...route} />)}
                 
    </div>
-  </Router>
+  </HashRouter>
 );
 
 export default Protfolio;
