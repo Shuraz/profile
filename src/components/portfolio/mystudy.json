@@ -1,0 +1,15 @@
+
+{
+
+	"master": "Master of Information Technology, Specialization: Software Design and Development",
+  "bachelor": "Bachelor’s Degree in Computer Engineering, Major Subjects: Programming, Graphics, Mathematics, Operating System, Theory of Computation, Network",
+  "highschool":"Higher Secondary Education, Major Subjects: Physics, Math",
+  "trainingA":"Implementation of Mobile for the  development for finance, agriculture. Technology of mobile devices and their applications. ",
+  "trainingB":" # Certificate In Java Programming language using Java SE6 : It was awarded by ORACLE Work force Development Program. Certificate issued on August 16, 2013. # Certificate Program In Advanced Java Programming For Web Development: It was awarded by ORACLE Work force Development Program. Certificate issued on August 16, 2013.",
+  "trainingC":"React, Redux, HTML, CSS, Bootstrap",
+  "workA":"This system deals with verifying, purchasing, transferring, and managing tickets via android. Ticket Coded with QR Codes is handled as images that is accessed and received on mobile hand set.",
+  "workB":"This is presented as project for my interested subject 'Mobile Application Development' in Charles Sturt University. This app gives the dressing idea and also helps to organise personal dresses and accessories.",
+  "workC":"These all demonstrate my knowledge of Java Programming Language",
+  "workD":"This is for presenting my skill and works. Along with the implementation of my knowledge in web development."
+
+}

@@ -8,12 +8,25 @@
 }
 
 .App-header {
-  background-color: #222;
+  background-color: rgb(25, 140, 160);
   height: 150px;
   padding: 20px;
   color: white;
 }
 
+.jumbotron_home {
+  background-color: #17a2b8;
+  color: #fff;
+  padding: 100px 25px;
+  font-family: Montserrat, sans-serif;
+}
+
+.App-footer {
+  background-color: rgb(21, 88, 100);
+  height: auto;
+  padding: 20px;
+  color: white;
+}
 .App-title {
   font-size: 1.5em;
 }
@@ -25,4 +38,27 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color:none }
 }
